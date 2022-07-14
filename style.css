@@ -58,6 +58,8 @@ button {
 	width: 75px;
 	border-radius: 20px;
 	border-style: none;
+	cursor: pointer;
+	color: white;
 }
 
 .user-alert {
@@ -72,10 +74,10 @@ button {
 	grid-row: 1/4;
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: repeat(3, 100px);
-	gap: 30px;
+	/* grid-template-rows: repeat(3, 100px); */
+	/* gap: 15px; */
 	color: white;
-	padding: 15px;
+	padding: 0 15px;
 }
 
 .title-block {
@@ -91,11 +93,19 @@ button {
 	fill: white;
 }
 
+li {
+	margin-bottom: 20px;
+}
+
+li:last-child {
+	margin-bottom: 0;
+}
+
 .side-list li a {
 	display: flex;
 	justify-content: start;
 	align-items: center;
-	gap: 15px;
+	gap: 20px;
 }
 
 a,
