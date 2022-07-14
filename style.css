@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 	font-family: sans-serif;
+	color: #292524;
 }
 
 html,
@@ -35,6 +36,23 @@ header {
 	display: flex;
 	gap: 10px;
 	align-items: center;
+}
+
+.user {
+	display: flex;
+	font-size: 0.7rem;
+	align-items: center;
+	gap: 15px;
+}
+
+.profile-img-lg {
+	height: 60px;
+	width: auto;
+}
+
+.profile-img-sm {
+	height: 30px;
+	width: auto;
 }
 
 input {
@@ -74,10 +92,13 @@ button {
 	grid-row: 1/4;
 	display: grid;
 	grid-template-columns: 1fr;
-	/* grid-template-rows: repeat(3, 100px); */
-	/* gap: 15px; */
 	color: white;
 	padding: 0 15px;
+	fill: white;
+}
+
+h2 {
+	color: white;
 }
 
 .title-block {
@@ -90,7 +111,6 @@ button {
 .dashboard-icon {
 	height: 45px;
 	width: auto;
-	fill: white;
 }
 
 li {
@@ -106,6 +126,7 @@ li:last-child {
 	justify-content: start;
 	align-items: center;
 	gap: 20px;
+	fill: white;
 }
 
 a,
@@ -115,9 +136,11 @@ a,
 }
 
 .projects {
-	/* grid-column: span 1; */
 	padding: 30px 15px;
-	/* background-color: #d6d3d1; */
+}
+
+.projects h3 {
+	padding-left: 15px;
 }
 
 .projects-container {
@@ -171,8 +194,4 @@ header,
 .trending,
 .card {
 	box-shadow: 0px 5px 5px rgba(78, 76, 76, 0.8);
-}
-
-h3 {
-	margin-left: 15px;
 }
