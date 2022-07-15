@@ -262,3 +262,32 @@ header,
 	text-overflow: ellipsis "[...]";
 	overflow: hidden;
 }
+
+.trending {
+	display: flex;
+	flex-direction: column;
+}
+
+.trending-user {
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	font-size: 0.7rem;
+}
+
+.trending-user h6 {
+	font-size: 0.8rem;
+}
+
+.trending-user img {
+	height: 24px;
+	width: auto;
+}
+
+.trending-user-info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+}
